@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Web Net\Practicas\SistemaGestionViaticos\SistemaGestionViaticos
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Web Net/Practicas/SistemaGestionViaticos/SistemaGestionViaticos/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Web Net/Practicas/SistemaGestionViaticos/SistemaGestionViaticos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Web Net/Practicas/SistemaGestionViaticos/SistemaGestionViaticos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Net/Practicas/SistemaGestionViaticos/SistemaGestionViaticos/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Web Net/Practicas/SistemaGestionViaticos/SistemaGestionViaticos/Views/Shared/_ValidationScriptsPartial.cshtml]

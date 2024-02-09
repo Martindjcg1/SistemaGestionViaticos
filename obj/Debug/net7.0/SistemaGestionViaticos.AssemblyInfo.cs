@@ -11,10 +11,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-SistemaGestionViaticos-5729e3ed-bd66-4d34-8442-0adcb7087feb")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaGestionViaticos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1c5f3c945942430788254a5f9c91bd455added5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaGestionViaticos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaGestionViaticos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
