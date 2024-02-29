@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaGestionViaticos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1c5f3c945942430788254a5f9c91bd455added5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b829e9de4ada7bd5c658769589c0afeb16943a82")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaGestionViaticos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaGestionViaticos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

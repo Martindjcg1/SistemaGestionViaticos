@@ -4,14 +4,175 @@
     "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\SistemaGestionViaticos.csproj": {}
   },
   "projects": {
-    "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\SistemaGestionViaticos.csproj": {
+    "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.AccesoDatos\\SistemaGestionViaticos.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\SistemaGestionViaticos.csproj",
-        "projectName": "SistemaGestionViaticos",
-        "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\SistemaGestionViaticos.csproj",
+        "projectUniqueName": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.AccesoDatos\\SistemaGestionViaticos.AccesoDatos.csproj",
+        "projectName": "SistemaGestionViaticos.AccesoDatos",
+        "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.AccesoDatos\\SistemaGestionViaticos.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\obj\\",
+        "outputPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Modelos\\SistemaGestionViaticos.Modelos.csproj": {
+                "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Modelos\\SistemaGestionViaticos.Modelos.csproj"
+              },
+              "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj": {
+                "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Modelos\\SistemaGestionViaticos.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Modelos\\SistemaGestionViaticos.Modelos.csproj",
+        "projectName": "SistemaGestionViaticos.Modelos",
+        "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Modelos\\SistemaGestionViaticos.Modelos.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj": {
+                "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj",
+        "projectName": "SistemaGestionViaticos.Utilidades",
+        "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,25 +201,120 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.15, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.15, )"
+              "version": "[7.0.14, )"
             },
-            "Microsoft.AspNetCore.Identity.UI": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[7.0.15, )"
+              "version": "[7.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\SistemaGestionViaticos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\SistemaGestionViaticos.csproj",
+        "projectName": "SistemaGestionViaticos",
+        "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\SistemaGestionViaticos.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.AccesoDatos\\SistemaGestionViaticos.AccesoDatos.csproj": {
+                "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.AccesoDatos\\SistemaGestionViaticos.AccesoDatos.csproj"
+              },
+              "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Modelos\\SistemaGestionViaticos.Modelos.csproj": {
+                "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Modelos\\SistemaGestionViaticos.Modelos.csproj"
+              },
+              "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj": {
+                "projectPath": "D:\\Web Net\\Practicas\\SistemaGestionViaticos\\SistemaGestionViaticos.Utilidades\\SistemaGestionViaticos.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.15, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             }
           },
           "imports": [
